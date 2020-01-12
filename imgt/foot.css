@@ -1,0 +1,22 @@
+footer {
+padding: 30px 0;
+background: #3C3D41;
+color: white;
+}
+.footer-col {
+width: 33.3333333333%;
+float: left;
+}
+.footer-col a {
+color: white;
+}
+.footer-col:last-child {
+text-align: right;
+}
+.social-bar-wrap {
+text-align: center;
+}
+.social-bar-wrap a {
+padding: 0 7px;
+font-size: 18px;
+}

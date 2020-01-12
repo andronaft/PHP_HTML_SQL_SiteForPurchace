@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+/* показываем кнопку для переключения верхней навигации */
+.nav-toggle {
+display: block;
+}
+header {
+padding: 10px 0;
+}
+/* скрываем верхнее меню, отменяем обтекание, позиционируем его, сместив на высоту шапки сайта */ 
+#menu {
+max-height: 0;
+background: white;
+float: none;
+position: absolute;
+overflow: hidden;
+top: 63px;
+right: 0;
+left: 0;
+margin: 0;
+padding: 0;
+z-index: 3;
+}
+/* делаем элементы списка блочными, чтобы они располагались друг под другом */
+#menu li {
+display: block;
+padding-left: 15px;
+border-bottom: 1px solid #EBEBE3;
+margin-right: 0;
+}
+/* отменяем обтекание левой и правой колонок, устанавливаем им ширину 100%*/
+.posts-list, aside {
+width: 100%;
+float: none;
+}
+.widget {
+font-size: 1.5em;
+}
+}
+@media (max-width: 480px) {
+/* выравниванием логотип по центру */
+nav {
+text-align: center;
+}
+/* отменяем обтекание для логотипа */
+.logo {
+float: none;
+margin-bottom: 15px;
+}
+/* позиционируем меню на увеличившуюся высоту шапки */
+#menu {
+top: 118px;
+}
+/* позиционируем форму поиска по левому краю */
+#searchform {
+float: left;
+margin-left: 0;
+}
+/* убираем верхнюю и нижнюю границы и выравниваем кнопку по центру */
+.post-footer {
+border-top: none;
+border-bottom: none;
+text-align: center;
+}
+/* отменяем позиционирование кнопок соцсетей */
+.post-social {
+position: static;
+text-align: center;
+transform: none;
+margin-top: 20px;
+}
+.widget {
+font-size: 1.2em;
+}
+/* отменяем обтекание для столбцов подвала страницы */
+.footer-col {
+float: none;
+margin-bottom: 20px;
+width: 100%;
+text-align: center;
+}
+.footer-col:last-child {
+text-align: center;
+margin-bottom: 0;
+}
+}

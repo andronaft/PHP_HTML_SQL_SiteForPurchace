@@ -1,0 +1,1 @@
+Оплата успешно произошла . перейти в<a href="http://andronaft99.zzz.com.ua/check.php"> кабинет </>.

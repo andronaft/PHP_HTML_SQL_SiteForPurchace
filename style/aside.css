@@ -1,0 +1,102 @@
+/* правый контейнер */
+aside {
+width: 33%;
+float: right;
+}
+/* блок для виджетов */
+.widget {
+padding: 20px 15px;
+background: white;
+font-size: 13px;
+margin-bottom: 30px;
+box-shadow: 3px 3px 1px rgba(0,0,0,.05);
+}
+.widget-title {
+font-size: 18px;
+padding: 10px;
+margin-bottom: 20px;
+text-align: center;
+border: 2px solid #F8B763;
+box-shadow: 3px 3px 0 0 #F8B763;
+}
+.widget-category-list li {
+border-bottom: 1px solid #EBEBE3;
+padding: 10px 0;
+color: #c6c6c6;
+font-style: italic;
+}
+.widget-category-list li:last-child {
+border-bottom: none;
+}
+.widget-category-list li a {
+color: #626262;
+margin-right: 6px;
+font-style: normal;
+}
+.widget-category-list li a:before {
+content: "\f105";
+display: inline-block;
+font-family: 'FontAwesome';
+margin-right: 10px;
+color: #c6c6c6;
+}
+.widget-posts-list li {
+border-top: 1px solid #EBEBE3;
+padding: 15px 0;
+}
+.widget-posts-list li:nth-child(1){
+border-top: none;
+}
+.post-image-small {
+width: 30%;
+float: left;
+margin-right: 15px;
+}
+.widget-post-title {
+float: left;
+}
+/* форма подписки */
+#subscribe {
+position: relative;
+width: 100%;
+padding: 15px 0;
+}
+#subscribe input {
+width: 100%;
+display: block;
+float: left;
+border: 2px solid #EBEBE3;
+padding: 0 0 0 10px;
+height: 40px;
+position: relative;
+outline: none;
+color: #9E9C9C;
+font-style: italic;
+}
+#subscribe button {
+padding: 0 15px;
+background: transparent;
+height: 40px;
+border: none;
+position: absolute;
+right: 0;
+color: #EF5A42;
+cursor: pointer;
+font-size: 18px;
+}
+#subscribe input:focus + button {
+background: #EF5A42;
+color: white;
+}
+
+@media screen and (max-width: 768px) { 
+aside {
+	width: 100%;	
+}
+
+.posts-list {
+   
+    width: 100%!important;
+    
+}
+}
